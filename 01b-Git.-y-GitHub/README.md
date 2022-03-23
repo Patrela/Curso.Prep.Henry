@@ -243,6 +243,9 @@ Si queremos buscar cuántas veces utilizamos un atributo de HTML lo hacemos con 
         <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
         <br>
         Hacé click acá para dejar tu feedback sobre esta clase.
+        PVR:.
+        En esta clase aprendimos el manejo de versiones de código.
+        Cómo organizar un repositorio personal con GIT (add, commit, rm), subir y actualizar el repositorio a Github ( push, pull) y administrar un repositorio con ramas para compartir diferentes versiones del proyecto con un equipo de trabajo (Branch, fetch, merge)
       </a>
     </td>
   </tr>

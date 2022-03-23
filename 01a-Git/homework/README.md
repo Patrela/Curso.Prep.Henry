@@ -107,6 +107,9 @@ A continuación, escribe lo siguiente en tu terminal:
   $ cd repositorio-henry
   
   $ touch archivo-ejemplo.js
+
+  Si no funciona en Windows, usar:
+  $ fsutil file createnew archivo-ejemplo.js 0
 ```
 
 Esto añadirá un nuevo archivo llamado "archivo-ejemplo.js" a tu proyecto.

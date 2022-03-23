@@ -2,7 +2,7 @@
 
 // Crea una variable "string", puede contener lo que quieras:
 //PVR: const nuevaString = null;
-const nuevaString = 'hola Paty';
+const nuevaString = 'hola  Paty';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = null;

@@ -7,6 +7,15 @@
         <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
         <br>
         Hacé click acá para dejar tu feedback sobre esta clase.
+        PVR:.
+        Es introducción a expresiones, sentencias y flujos de trabajo.
+        Las expresiones manejan datos y retornan valores, las sentencias realizan alguna labor.
+        VAR define que es una expresión. Y el tipo de dato de la expresión cambia dinámicamente, excepto si es una CONSTANTE.
+        Una función es un bloque de código que resuelve algo especifico.
+        Una función, en general, retornará un valor( Que es una expresión), de lo contrario hace algo (Statement)
+        Los flujos de trabajo son bloques de control. determinan bifurcación (if) o ciclos repetitivos (while, for, do while)
+        Los ciclos repetitivos y las funciones pueden interrumpir su flujo (return, continue, throw new Error);)
+
       </a>
     </td>
   </tr>

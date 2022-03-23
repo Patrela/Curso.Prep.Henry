@@ -265,6 +265,8 @@ Ya tenemos todo para empezar... Éxitos!!! 🍀
         <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
         <br>
         Hacé click acá para dejar tu feedback sobre esta clase.
+        PVR:.
+        En esta actividad creé una cuenta GitHub
       </a>
     </td>
   </tr>

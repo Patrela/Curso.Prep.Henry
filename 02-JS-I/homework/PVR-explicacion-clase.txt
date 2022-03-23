@@ -1,0 +1,80 @@
+PVR.
+TEMAS DE LA UNIDAD
+ * Variables
+ * Strings
+ * Funciones (argumentos, `return`)
+ * Declaraciones `if`
+ * Valores booleanos (`true`, `false`)
+
+VARIABLES: son los elementos del código donde se guardan datos. 
+Se definen con la palabra VAR, el nombre de la variable, el signo igual = , el valor a almacenar y punto y coma ;
+Según la clase de información, indica el tipo de dato:
+- si es texto el dato se escribe entre comillas. EJ. var nombreVarible = 'Soy un texto';
+- si es numérico el dato puede ser positivo, negativo o cero. EJ. var numero = -5478;
+- si es sí o no, se llama lógico y sus valores son true(verdadero), y false( falso) EJ. var votoValido = false;
+- si no cambia de valor en todo el código, es una constante, y se define con CONST. EJ. CONST pi = 3.1416;
+
+STRINGS: son datos de tipo texto. Se escriben entre comillas ''. 
+EJ. var animal1 = 'perro'; var  animal2 = ' y gato'; var animales = animal1 + animal2
+Variable animales queda con el valor 'perro y gato'
+
+FUNCIONES: son bloques de código que realizan cosas puntuales, y pueden utilizarse múltiples veces.
+Por ejemplo, si queremos que en la pantalla aparezcan todos los textos resaltados dentro de un cuadro, 
+en vez de repertir la labor de crear las instrucciones de generar el cuadro para cada texto,
+hacemos una sola vez el bloque de instrucciones dentro de una función, 
+y usamos la función cada vez que queremos resaltar un texto dentro de un cuadro.
+
+EJ. función Par, que informa si un número es par o impar
+function par(numero){
+    if(numero %2 == 0){
+        console.log("es par /n");
+    }
+    else {
+        console.log("es impar /n");
+    }
+}
+
+par(8); // ESCRIBE es par
+par(11); // ESCRIBE es impar
+
+Esta función muestra valores en pantalla, pero no devuelve valores.
+Creeemos una función que devuelva valores
+EJ La función suma() sumará valores de los 2 datos que recibe en n1 y en n2.
+Los datos que recibe una función se llaman argumentos.
+Los argumentos de suma() son n1 y n2.
+El valor que devuelve es n1 + n2. 
+Para devolver valores se usa la palabra RETURN
+
+
+function suma(n1, n2) {
+    return (n1 + n2)
+}
+
+a= suma(8,10)       // suma() devuelve 8+10      a vale 18
+b= suma(8, -10)     //  suma() devuelve 8+ -10   b vale -2
+
+BOOLEANOS: sólo toman 2 valores: verdadero o falso (true / false). Sirven para manejar estados o condiciones
+EJ. HoraVespertina= false; LaTierraEsRedonda=true;
+
+IF: instrucción que valida una condición, y si es verdadera ejecuta un bloque de instrucciones, 
+y si es falsa, ejecuta el bloque de instrucciones indicado en ELSE.
+Las condiciones surgen de la comparación de 2 expresiones. Usan operadores lógicos:
+menor que, mayor que, igual, no, diferente de (<, >, ==, !, !=)
+
+estructura
+IF (condición){
+    instrucciones si la condición es verdadera}
+    else{
+        instrucciones si no se cumple la condición
+    }
+
+EJ.
+var hora= 15;
+if (hora <12){
+    console.log("Es de mañana");
+}
+else{
+    console.log("Es hora de la tarde");
+}
+// hora vale 15. la condición hora <12 es falsa. Entra a ejecutar ELSE. y ESCRIBE "Es hora de la tarde"
+
