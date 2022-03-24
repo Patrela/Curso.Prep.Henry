@@ -1,0 +1,36 @@
+PVR
+* `for`
+* `&&`, `||`, `!`
+
+FOR 
+Es un conjunto de instrucciones que se ejecutan cíclicamente hasta que se cumple una condición
+La sintasis es:
+
+for (let i = 0                 ; i < 10                 ; i++          ) {
+// | Declaramos una variable | Expresión condcicional | Incrementamos la variable en 1 |
+    sentencias separadas por ;
+}
+
+OPERADORES LÓGICOS
+&& : condición Y
+Evalúa 2 expresiones, y sólo se cumple si las 2 son verdaderas
+
+if (condicion1 && condicion2) {
+    instrucciones se ejecitan si condicion1 Y condicion2 son verdaderas. Deja de evaluar si condicion1 es falsa
+}
+
+|| : condición O
+Evalúa 2 expresiones, y se cumple si las 2 son verdaderas o alguna es verdadera
+
+if (condicion1 || condicion2) {
+    instrucciones se ejecitan si condicion1 O condicion2 son verdaderas. Deja de evaluar si condicion1 es true
+}
+! : NOT negación
+invierte el valor de una expresión lógica. Si es verdadero lo convierte en falso y viceversa.
+
+if (!(5==5))
+{ no entra, porque el resultado es Negación de que 5 es exactamente igual a 5}
+
+if (!(5>8))
+{ entra, 5>8 es falso, y negación de falso es true}
+
