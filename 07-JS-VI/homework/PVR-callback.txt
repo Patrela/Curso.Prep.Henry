@@ -1,0 +1,9 @@
+PVR:.
+* Funciones Callback
+
+Son funciones cuyo nombre se pasa como argumento a tora fución para ser invocada en éste último.
+En general usan recursividad, dejando oculto el nivel de abstracción, y entregando el resultado de la funcionalidad.
+ejemplo de estas son algunas funciones sobre arreglos:
+
+REDUCE: recorre el arreglo y devuelve un único resultado de procesar el arreglo elemento por elemento
+MAP: recorre el arreglo, realiza elguna operación con cada elemento, y el resultado es una nueva matriz
