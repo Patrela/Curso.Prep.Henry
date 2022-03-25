@@ -1,0 +1,57 @@
+PVR:.
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+OBJETOS: Conjunto de datos y sentencias que representan una misma cosa, en general, 
+una representación de un objeto de la vida real.
+
+Los objetos se componen de la combinación clave - valor.
+Clave es una característica y valor, es el contenido que asignamos a la clave.
+
+Las claves son de 2 tipos:
+1. PROPIEDADES. son claves conun valor asignado. Funcionan como pacarterísticas del objeto
+2. MÉTODOS. Son funciones definidas dentro del objeto
+
+Si un objeto se refiere a elementos de si mismo, se emplea la palabra THIS
+
+BLUCLE FOR.. IN
+Es la manera de recorrer todas las claves de un objeto
+
+EJ. vamos a representar un usuario de una app
+
+const usuario = {
+    username: 'patrela',
+    password: 'loremsipsumpwd123',
+    administrador: true,
+    correo: uno@correo.com
+};
+// username - password - administrador - correo son PROPIEDADES
+
+// for…in para mostrar todas las claves o propiedades
+for (let clave in usuario){
+    console.log(clave);
+    console.log(usuario[clave]);
+}
+
+// username
+// 'patrela'
+// password
+// 'loremsipsumpwd123'
+// administrador
+// true
+// correo
+// uno@correo.com
+
+NOTACIONES EN OBJETOS
+Para acceder a las claves de un objeto se puede hacer de 2 formas:
+
+objeto.clave      // NOTACION CON PUNTO. La forma mas usada
+objeto ['clave']  // NOTACIÓN CON CORCHETES. En general se emplea si se usa una referencia a la clave
+
+EJ en referencia al objeto USUARIO:
+ console.log(usuario.correo);           // uno@correo.com
+ const nombre_clave ='username';
+ console.log(usuario[nombre_clave]);    // patrela

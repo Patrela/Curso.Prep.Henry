@@ -1,0 +1,22 @@
+PVR
+*Arrays
+Los arreglos son formas de agrupar datos.
+Se organizan en una parte de la memoria y se puede acceder a ellos a través de índices, 
+donde le valor del índice es la posición del elemento dentro del arreglo, empezando en la posición 0.
+
+Los arreglos pueden ser dinámicos.
+Cada posición de un arreglo es un elemento, y tiene un índice único
+
+Un ejemplo de arreglos son las vocales:
+
+var arreglo_vocales = new Array();
+arreglo_vocales = ["a","e","i","o","u"];
+
+console.log(arreglo.length); // 5  LENGTH es la longitud del arreglo
+
+console.log(arreglo[0]); // "a"    La posición de los arreglos empieza 0
+
+Los arreglos se emplean para datos conocidos relacionados (vocales, meses, departamentos, etc), 
+o para generar datos calculados ( números impares hasta 20, calificaciones de un estudiante, etc)
+
+Para aumentar la cantidad de elementos se usa PUSH o UNSHIFT, y para eliminar elementos se emplea POP o SHIFT
