@@ -1,0 +1,20 @@
+PVR:.
+* `prototype`
+* _Constructors_ (de Clases)
+
+Las clases son plantillas que ayudan a representar conceptos de la vida real que luego se vuelven objetos.
+EJ: Plantilla GATO Objeto GatoPersa, GatoEgipcio, etc...
+
+PROTOTYPE:
+Son las características de l clase que deseamos que se hereden a otros objetos que usen la clase.
+En general prototype es para métodos, mientras que las propiedades permanecen de forma local en la clase.
+
+Sintaxis:
+Clase.prototype.nombre_metodo = function() {
+    ...
+}
+
+_CONSTRUCTORS_
+Son los métodos que se invocan por única vez cuando se crea un objeto que usa la clase.
+Es el lugar ideal para definir los valores de inicio de las propiedades de la clase.
+Los valores del constructor llegan a éste a través de los argumentos pasados en la creación de la clase ( new Clase(parametro1, parametro2,...))
