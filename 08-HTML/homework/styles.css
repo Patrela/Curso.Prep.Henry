@@ -1,0 +1,14 @@
+body { background:lightblue url("https://media.traveler.es/photos/6137756f4c612f07ec399b96/master/w_1600%2Cc_limit/111576.jpg") no-repeat fixed center }
+h1 { color: yellowgreen;}
+h1, h2,h3,h4 {text-align: center;}
+img {width: 400px;} 
+
+.divClass  {display: block;
+    /* display: flex;
+    flex-wrap: wrap; */
+    align-content: center;}
+
+#main {width: 800px; margin: 0 auto; display: flexbox; align-items: center; justify-content: center;}
+#spanId {font-size:  18px; margin: 50px;}
+#thirdDiv {height: 600px; width: 500px; background-color: aquamarine; padding: 50px; border: 1rem solid goldenrod;}
+
